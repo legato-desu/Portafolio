@@ -46,12 +46,12 @@ body {
   width: 100vw;
   height: 100vh;
   gap: 30px;
-  background-color: #f3efe0;
+  background-color: #E3F1FC;
   color: #212121;
 }
 
 .wrapper p {
-  color: black;
+  color: #000000;
 }
 
 .navbar {
@@ -65,7 +65,7 @@ body {
 }
 
 .brand span {
-  color: #EA7E1E;
+  color: #76B1E3;
 }
 
 .menu {
@@ -78,10 +78,11 @@ body {
   position: relative;
   padding: 5px 7px;
   text-decoration: none;
-  color: #151a1c;
+  color: #000000;
   transition: all 0.6s ease;
 }
 
+/* cambio de colores y etc de los botones inicio, sobre mi, proyectos...*/
 .btn-1 {
   transition: all 0.6s ease;
   z-index: 1;
@@ -94,7 +95,7 @@ body {
   height: 100%;
   left: -10px;
   top: 0;
-  background-color: #ffb81b;
+  background-color: hsl(205, 100%, 55%);
   transform: skew(20deg, 0deg);
   transition: all 0.4s ease;
 }
@@ -107,7 +108,7 @@ body {
   left: 0;
   top: 0x;
   transform: skew(20deg, 0deg);
-  border: 3px solid #EA7E1E;
+  border: 3px solid #76B1E3;
   transition: all 0.4s ease;
   z-index: -1;
 }
@@ -118,8 +119,8 @@ body {
 }
 
 .btn-1:hover::before {
-  background-color: #FFB81B;
-  border: 3px solid #878601;
+  background-color: #76B1E3;
+  border: 3px solid #870101;
   transform: skew(20deg, 0deg) scale(1.1);
 }
 
@@ -135,7 +136,7 @@ body {
   height: 100%;
   left: -10px;
   top: 0;
-  background-color: #ffb81b;
+  background-color: hsl(205, 100%, 55%);
   transform: skew(20deg, 0deg);
   transition: all 0.4s ease;
 }
@@ -148,7 +149,7 @@ body {
   left: 0;
   top: 0x;
   transform: skew(20deg, 0deg);
-  border: 3px solid #EA7E1E;
+  border: 3px solid #76B1E3;
   transition: all 0.4s ease;
   z-index: -1;
 }
@@ -159,8 +160,8 @@ body {
 }
 
 .btn-2:hover::before {
-  background-color: #FFB81B;
-  border: 3px solid #878601;
+  background-color: #76B1E3;
+  border: 3px solid #870101;
   transform: skew(20deg, 0deg) scale(1.1);
 }
 
@@ -176,7 +177,7 @@ body {
   height: 100%;
   left: -10px;
   top: 0;
-  background-color: #ffb81b;
+  background-color: hsl(205, 100%, 55%);
   transform: skew(20deg, 0deg);
   transition: all 0.4s ease;
 }
@@ -189,7 +190,7 @@ body {
   left: 0;
   top: 0x;
   transform: skew(20deg, 0deg);
-  border: 3px solid #EA7E1E;
+  border: 3px solid #76B1E3;
   transition: all 0.4s ease;
   z-index: -1;
 }
@@ -200,8 +201,8 @@ body {
 }
 
 .btn-3:hover::before {
-  background-color: #FFB81B;
-  border: 3px solid #878601;
+  background-color: #76B1E3;
+  border: 3px solid #870101;
   transform: skew(20deg, 0deg) scale(1.1);
 }
 
@@ -217,7 +218,7 @@ body {
   height: 100%;
   left: -10px;
   top: 0;
-  background-color: #ffb81b;
+  background-color: hsl(205, 100%, 55%);
   transform: skew(20deg, 0deg);
   transition: all 0.4s ease;
 }
@@ -230,7 +231,7 @@ body {
   left: 0;
   top: 0x;
   transform: skew(20deg, 0deg);
-  border: 3px solid #EA7E1E;
+  border: 3px solid #76B1E3;
   transition: all 0.4s ease;
   z-index: -1;
 }
@@ -241,8 +242,8 @@ body {
 }
 
 .btn-4:hover::before {
-  background-color: #FFB81B;
-  border: 3px solid #878601;
+  background-color: #76B1E3;
+  border: 3px solid #870101;
   transform: skew(20deg, 0deg) scale(1.1);
 }
 
@@ -260,18 +261,21 @@ h1 {
   font-size: 3em;
 }
 
+
+/* cambio de color en letras David */
 .info-content span {
-  color: #EA7E1E;
+  color: #76B1E3;
 }
 
+/*Modificar boton de descaragr hoja de vida*/
 .download-cv {
   padding: 10px 20px;
-  background-color: #EA7E1E;
+  background-color: rgb(184, 211, 233);
   border: none;
   border-radius: 20px;
   margin-top: 10px;
   cursor: pointer;
-  box-shadow: 1px 3px 11px -5px rgba(255, 159, 5, 0.975);
+  box-shadow: 1px 3px 11px -5px #76B1E3;
 }
 
 .btn-leer {
@@ -285,7 +289,7 @@ h1 {
 }
 
 .download-cv:hover {
-  background-color: #FFB81B;
+  background-color: hsl(205, 100%, 55%);
   box-shadow: none;
 }
 
